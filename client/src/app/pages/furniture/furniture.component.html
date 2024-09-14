@@ -1,0 +1,15 @@
+<div class="furniture">
+    <div class="furniture_banner_background"></div>
+
+    <div class="furniture_banner banner_content">
+        <div>
+            <h2>Furniture</h2><br>
+            <p>Explore our range of high-quality products, including chairs, sofas, tables and
+                vanity.</p>
+        </div>
+    </div>
+
+    <div class="furniture_products_container">
+        <app-product-card *ngFor="let product of furnitureProducts" [product]="product"></app-product-card>
+    </div>
+</div>

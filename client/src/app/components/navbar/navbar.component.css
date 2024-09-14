@@ -1,0 +1,128 @@
+.navbar-container {
+  width: 100%;
+  align-items: center;
+  /* padding: 1rem 0; */
+  z-index: 99;
+  background: transparent;
+  justify-content: space-between;
+  color: #fff;
+  position: absolute;
+  top: 0;
+}
+
+.navbar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar:hover {
+  background: #fff;
+  color: #000;
+  transition: 0.4s ease-in-out;
+}
+
+mat-sidenav {
+  width: 250px;
+  height: 100%;
+  background: #5b5959eb;
+  position: fixed;
+  color: #fff;
+  left: 0;
+  z-index: 1000;
+  transition: transform 0.3s ease-in-out;
+}
+
+.sideNav {
+  position: absolute;
+  top: 0;
+  background: #918d8db4;
+  color: #757575;
+  display: none;
+  flex-direction: column;
+  padding-top: 1rem;
+  padding-left: 2rem;
+  gap: 2rem;
+  z-index: 99;
+}
+
+mat-sidenav .close_sidenav {
+  padding-left: 80%;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+  display: flex;
+  align-items: flex-end;
+}
+
+mat-sidenav .close_sidenav i{
+    cursor: pointer;
+}
+
+mat-sidenav .menu ul li {
+  font-size: 1.2rem;
+  line-height: 2.25rem;
+  margin-bottom: 30px;
+  list-style: none;
+  cursor: pointer;
+  padding-left: 2rem;
+}
+
+mat-sidenav a{
+    text-decoration: none;
+    color: #fff;
+}
+
+mat-sidenav .menu ul li:hover {
+  color: #fff;
+  background-color: #282727;
+}
+
+.navbar_left {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.navbar_left .menu ul {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  gap: 25px;
+  font-size: 14px;
+}
+
+.navbar_left .menu ul li {
+  cursor: pointer !important;
+}
+
+.navbar_left .logo {
+  margin-left: 3rem;
+  margin-right: 2rem;
+  font-family: Amita;
+  font-size: 25px;
+}
+
+.navbar_left .vertical_rule {
+  height: 30px;
+}
+
+.navbar_right {
+  margin-right: 5rem;
+}
+
+.navbar_right ul {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  list-style: none;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #fff;
+}

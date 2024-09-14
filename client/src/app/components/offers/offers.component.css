@@ -1,0 +1,36 @@
+
+.offers {
+    background: #4a4747;
+    padding: 1rem 0;
+    width: 100%;
+    color: #fff;
+    font-size: 12.5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+}
+
+.offers .offer_text {
+    display: none;
+}
+
+.offers i {
+    font-size: 16px;
+    cursor: pointer;
+    position: absolute;
+}
+
+.offers .left {
+    left: 2rem;
+}
+
+.offers .right {
+    right: 2rem;
+}
+
+.offers_nav .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

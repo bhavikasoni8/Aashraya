@@ -1,0 +1,16 @@
+<div class="lighting">
+    <div class="lighting_banner_background"></div>
+
+    <div class="lighting_banner banner_content">
+        <div>
+            <h2>Lights</h2><br />
+            <p>Brighten your life and your home with the stunning designs and exceptional
+                craftsmanship of our lighting collections.</p>
+        </div>
+    </div>
+
+    <!-- products -->
+    <div class="lighting_products_container">
+        <app-product-card *ngFor="let product of ligthingProducts" [product]="product"></app-product-card>
+    </div>
+</div>

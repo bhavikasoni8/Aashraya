@@ -1,0 +1,13 @@
+<div class="collection">
+    <h2>
+        <div class="underline"></div>COLLECTIONS
+    </h2>
+    <div class="collection_cards">
+        <div class="card" *ngFor="let collection of collections">
+            <a routerLink={{collection.route}}>
+                <img [src]="collection.img" alt="" />
+                <p>{{collection.name}}</p>
+            </a>
+        </div>
+    </div>
+</div>

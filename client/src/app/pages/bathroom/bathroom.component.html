@@ -1,0 +1,14 @@
+<div class="bathroom">
+    <div class="bathroom_banner_background"></div>
+
+    <div class="bathroom_banner banner_content">
+        <div>
+            <h2>Bathroom Accessories</h2><br>
+            <p>Explore our range of high-quality products, including towel bars, soap dispensers, grab bars and
+                robe hooks.</p>
+        </div>
+    </div>
+    <div class="bathroom_products_container">
+        <app-product-card *ngFor="let product of bathroomProducts" [product]="product"></app-product-card>
+    </div>
+</div>

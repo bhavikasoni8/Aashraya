@@ -1,0 +1,16 @@
+<div class="kitchen">
+    <div class="kitchen_banner_background"></div>
+
+    <div class="kitchen_banner banner_content">
+        <div>
+            <h2>Kitchen</h2><br>
+            <p>Pairing elevated style with innovative technology
+                and ultra-durable construction.</p>
+        </div>
+    </div>
+</div>
+
+<!-- products -->
+<div class="kitchen_products_container">
+    <app-product-card *ngFor="let product of kitchenProducts" [product]="product"></app-product-card>
+</div>

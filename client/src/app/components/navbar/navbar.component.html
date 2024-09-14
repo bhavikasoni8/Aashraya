@@ -1,0 +1,39 @@
+<mat-sidenav-container class="navbar-container">
+    <mat-sidenav #sidenav mode="over" class="sidenav">
+        <div class="close_sidenav">
+            <i class="fa-solid fa-xmark" (click)="closeSideNav()"></i>
+        </div>
+        <div class="menu">
+            <ul>
+                <li><a routerLink="/bathroom">Bathroom</a></li>
+                <li><a routerLink="/furniture">Furniture</a></li>
+                <li><a routerLink="/kitchen">Kitchen</a></li>
+                <li><a routerLink="/lighting">Lighting</a></li>
+            </ul>
+        </div>
+    </mat-sidenav>
+    <mat-sidenav-content>
+        <div class="navbar">
+            <div class="navbar_left">
+                <div class="logo">
+                    <a routerLink="/">आश्रय</a>
+                </div>
+                <div class="menu">
+                    <ul>
+                        <li (click)="openSideNav()">Products</li>
+                        <div class="vertical_rule"></div>
+                        <li>Inspiration</li>
+                        <li>Services</li>
+                        <li>About Us</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="navbar_right">
+                <ul>
+                    <li>Search</li>
+                    <li><i class="fa-solid fa-magnifying-glass"></i></li>
+                </ul>
+            </div>
+        </div>
+    </mat-sidenav-content>
+</mat-sidenav-container>
