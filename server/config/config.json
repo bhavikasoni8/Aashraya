@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "postgres",
+    "password": "Bhavika123@",
+    "database": "aashraya",
+    "host": "localhost",
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "postgres",
+    "password": "Bhavika123@",
+    "database": "aashraya",
+    "host": "localhost",
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "postgres",
+    "password": "Bhavika123@",
+    "database": "aashraya",
+    "host": "localhost",
+    "dialect": "postgres"
+  }
+}
